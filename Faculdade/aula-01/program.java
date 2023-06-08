@@ -35,16 +35,18 @@ public class program {
             System.out.println("Idoso!");
             }
         
+        if(idade < 18){
         // while:
-        while(idade < 18){
-            idade = idade +1;
-            System.out.println("idade atul: " + idade);
-        }
-        System.out.println("agora não é mais menor de idade");
-        System.out.printf("Idade atul: %d\n", idade);
+            while(idade < 18){
+                idade = idade +1;
+                System.out.println("idade atul: " + idade);
+            }
+            System.out.println("agora não é mais menor de idade");
+            System.out.printf("Idade atul: %d\n", idade);
 
-        // para implementar a mesma coisa usando or:
-        // for (idade; idade < 18; idade++)
+            // para implementar a mesma coisa usando or:
+            // for (idade; idade < 18; idade++)
+        }
 
 
         // arrays:
