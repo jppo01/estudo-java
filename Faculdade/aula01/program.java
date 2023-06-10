@@ -1,4 +1,4 @@
-package faculdade;
+package Faculdade.aula01;
 
 import java.util.Scanner;
 
@@ -55,5 +55,6 @@ public class program {
         for(int i=0; i < NumerosAleatorios.length; i++){
             System.out.println("Número: "+ NumerosAleatorios[i]);
         }
+        teclado.close();
     }
 }
