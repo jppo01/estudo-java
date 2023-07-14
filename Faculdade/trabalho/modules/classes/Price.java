@@ -1,4 +1,5 @@
-package Faculdade.trabalho;
+package Faculdade.trabalho.modules.classes;
+
 
 // para tratar exceptions
 import java.io.IOException;
@@ -20,7 +21,7 @@ public class Price {
     private float BTCBRL;
     private JsonObject jsonObject;
 
-    Price (){
+    public Price (){
         getPrice(); // sempre que o objeto for estanciado os atributos receberão estados mais atual
     }
     public void getPrice() {
