@@ -19,7 +19,7 @@ O sistema oferece as seguintes funcionalidades aos usuários:
 
 O projeto está estruturado em classes e faz uso do conceito de herança e polimorfismo. A seguir, são apresentadas as principais classes do projeto:
 
-1. `App`: Esta classe é responsável por apresentar o menu ao usuário e interagir com o sistema.
+1. `Principal`: Esta classe é responsável por apresentar o menu ao usuário e interagir com o sistema.
 2. `Cofrinho`: Esta classe representa o cofrinho e contém uma coleção de moedas. Utiliza uma estrutura de dados (como um `ArrayList`) para armazenar as moedas.
 3. `Moeda` (classe mãe abstrata): Esta é uma classe abstrata que serve como base para outras classes específicas de moedas, como `Dolar`, `Euro`, `Real` e `Atributo`. Ela define os atributos e métodos comuns a todas as moedas.
 4. Classes específicas de moedas (por exemplo, `Dolar`, `Euro`, `Real`, `Bitcoin`, etc.): Essas classes estendem a classe `Moeda` e implementam os métodos específicos de cada moeda, como a conversão para Real.
@@ -68,7 +68,7 @@ Para executar o projeto, siga as etapas abaixo:
 
 1. Abra o projeto em um ambiente de desenvolvimento Java, como o VSC (utilizei o maven para gerenciamento), Eclipse ou IntelliJ.
 2. Certifique-se de que a biblioteca Gson está configurada corretamente no projeto.
-3. Execute a classe `App` para iniciar o programa.
+3. Execute a classe `Princiapl` para iniciar o programa.
 4. Siga as instruções apresentadas no menu para interagir com o sistema.
 
 ## Observações
@@ -79,4 +79,4 @@ Além disso, é importante mencionar que o consumo da API, utilização do Gson 
 ## Meus contatos
 Caso haja a necessidade de entrar em contato comigo
 E-mail: jppo@live.com
-WhatsApp: (62)9 8456-0310.
+WhatsPrinciapl: (62)9 8456-0310.
