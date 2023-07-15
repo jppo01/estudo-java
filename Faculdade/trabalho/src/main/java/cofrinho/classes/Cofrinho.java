@@ -1,4 +1,4 @@
-package Faculdade.trabalho.modules.classes;
+package cofrinho.classes;
 
 import java.util.ArrayList;
 import java.util.Scanner;

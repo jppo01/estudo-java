@@ -1,9 +1,9 @@
-package Faculdade.trabalho;
+package cofrinho;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-import Faculdade.trabalho.modules.classes.Cofrinho;
+import cofrinho.classes.Cofrinho;
 
 public class Principal {
     public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class Principal {
             } catch (Exception e) {
                 System.out.println("!!! Valor digitado não é válido !!!");
                 System.out.println("Tente Novamente");
-                sc.nextLine(); // Consume the invalid input
+                sc.nextLine(); // Consume a entrada inválida
                 continue;
             }
             switch (opcao) {
@@ -83,7 +83,7 @@ public class Principal {
                                 sc.nextLine(); // Consome a entrada inválida
                                 continue;
                             }
-                            if(opcao == 0){ // volta e quebra o loop (while)
+                            if(opcao == 0){ // quebra o loop (while)
                                 addMoedaControleLoop = false;
                                 break;
                             } 

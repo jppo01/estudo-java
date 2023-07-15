@@ -1,4 +1,4 @@
-package Faculdade.trabalho.modules.classes;
+package cofrinho.classes;
 
 public class Euro extends Moeda {
 

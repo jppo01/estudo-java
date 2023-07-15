@@ -1,21 +1,19 @@
-package Faculdade.trabalho.modules.classes;
+package cofrinho.classes;
 
+public class Dolar extends Moeda{
 
-public class Bitcoin extends Moeda{
-
-    public Bitcoin(double v){
+    public Dolar(double v){
         super();
         this.valor = v;
-        this.simbolo = "\u20BF";
-        this.nome = "Bitcoin (BTC)";
+        this.simbolo = "$";
+        this.nome = "Dolar (USD)";
     }
     public double converter(){
         // Estou utilizando uma API para pegar os valores das moedas utilizadas
         // API Utilizada: https://docs.awesomeapi.com.br/api-de-moedas
         // Para trabalhar com o consumo dessa API estou utiizando a classe Price
         Price price = new Price();
-        double moedaConvertida = price.getBTCBRL() * getValor();
-
+        double moedaConvertida = price.getUSDBRL() * getValor();
         return moedaConvertida;
     }
     public double getValor(){
@@ -23,7 +21,7 @@ public class Bitcoin extends Moeda{
     }
     public String getSimbolo(){
         return this.simbolo;
-    }  
+    }
     public String getNome(){
         return this.nome;
     }
