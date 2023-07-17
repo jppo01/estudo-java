@@ -79,4 +79,4 @@ Além disso, é importante mencionar que o consumo da API, utilização do Gson 
 ## Meus contatos
 Caso haja a necessidade de entrar em contato comigo
 E-mail: jppo@live.com
-WhatsPrinciapl: (62)9 8456-0310.
+WhatsApp: (62)9 8456-0310.
